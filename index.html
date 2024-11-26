@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Список дел</h1>
+    <input type="text" id="task-input" placeholder="Введите задачу">
+    <button id="add-task-button">Добавить</button>
+    <ul id="todo-list"></ul>
+    <div id="filter-buttons">
+        <button data-filter="all">Все</button>
+        <button data-filter="completed">Выполненные</button>
+        <button data-filter="uncompleted">Невыполненные</button>
+    </div>
+    <div id="app">
+    <h1>Случайные пользователи</h1>
+    <p id="loading">Загрузка...</p>
+    <ul id="user-list"></ul>
+    <p id="error-message" style="color: red; display: none;">Не удалось загрузить пользователей.</p>
+    </div>
+    <div class="carousel">
+        <button id="prevBtn">Назад</button>
+        <div class="carousel-images">
+        
+        </div>
+        <button id="nextBtn">Вперед</button>
+    </div>
+</body>
+</html>
